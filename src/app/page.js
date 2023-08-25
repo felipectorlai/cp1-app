@@ -1,5 +1,39 @@
 import Image from 'next/image'
+import Text from "./components/Text";
+import Button from "./components/Button";
+import Link from "./components/Link";
+import './globals.css';
 
+export default function Home() {
+  return (
+    <main className="flex flex-col intems-center justify-between p-24">
+      <title name="Title" />
+      <Button>Button Home</Button>
+      <Link href="/sobre">Sobre</Link>
+    </main>
+  )
+  }
+  export default function Button({children,...props}){
+
+    <button className='rounded-lg border border-gray-300 bg-white px-5 py-4'>
+      {children}
+    </button>
+    
+  
+  }
+  export default function Text(props){
+
+   return(
+
+    <p className="text-4xl font-bold tracking-tight text-gray-900 sm:text-2xl">
+      {props.name}
+    </p>
+
+   )
+
+    
+    
+  }
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -108,6 +142,7 @@ export default function Home() {
           </p>
         </a>
       </div>
+     
     </main>
   )
 }
