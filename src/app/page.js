@@ -1,5 +1,4 @@
 // src/app/page.js
-import Link from "./components/Link";
 import './globals.css';
 
 export default function Home() {
