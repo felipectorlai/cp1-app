@@ -4,12 +4,27 @@
 import Link from 'next/link';
 import './globals.css';
 
+import React from 'react';
+
+import Button from '../src/app/components/Button';
+
+import Link from '../src/app/components/Title';
+
+import './globals.css';
+
 export default function Home() {
+
   return (
     <main className="flex flex-col items-center justify-between p-24">
       <title name="Title" />
-      <Button>Button Home</Button>
-      <Link href="/sobre">Sobre</Link>
+      <h1>LIVE TECH</h1>
+      <input type="text" placeholder="Digite sua pesquisa" />
+      <Button>Home</Button>
+      <Link href="/sobre">sobre</Link>
+      <p>   Olá, somos a Live Tech! <br/>
+
+Utilizamos um programa de inteligência artificial para conversar com os usuários, oferecendo informações e serviços relacionados a guinchos e serviços de reboque.</p>
+
     </main>
   );
 }
