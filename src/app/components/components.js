@@ -25,7 +25,7 @@ export const StyledLink = styled.a`
 export const StyledImage = styled.div`
   width: 200px;
   height: 200px;
-  background-image: url('caminho/para/sua/imagem.jpg');
+  background-image: url('./images/dev-image.jpg');
   background-size: cover;
 `;
 
