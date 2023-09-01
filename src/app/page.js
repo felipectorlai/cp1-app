@@ -2,14 +2,18 @@
 
 'use client'
 import React from 'react'
-export { button, a, div, h1} from './components/components';
+export { button, a, div, h1, nav} from './components/components';
 
 export default function Home() {
   return (
-      <main> <h1>Porto Seguro</h1>
-          <StyledButton>Leia mais</StyledButton>
-          <StyledLink href="https://github.com/danvitoriano/danvitoriano">Meu Link</StyledLink>
-          <StyledImage />
+      <main> 
+        
+        <h1>Porto Seguro</h1>
+        <br></br>
+        <button>Olá</button>
+        <br></br>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
       </main>
   );
 }
