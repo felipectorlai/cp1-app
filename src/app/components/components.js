@@ -28,3 +28,10 @@ const StyledImage = styled.div`
   background-image: url('caminho/para/sua/imagem.jpg');
   background-size: cover;
 `;
+
+const StyledHeading = styled.h1`
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+`;
