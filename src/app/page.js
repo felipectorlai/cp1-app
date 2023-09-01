@@ -7,7 +7,7 @@ import Imagem from './images/dev-image.jpg';
 
 export default function Home() {
   return (
-      <main>
+      <main> <h1>Porto Seguro</h1>
           <StyledButton>Meu Botão</StyledButton>
           <StyledLink href="https://github.com/danvitoriano/danvitoriano">Meu Link</StyledLink>
           <StyledImage />
