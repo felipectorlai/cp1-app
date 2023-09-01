@@ -2,7 +2,7 @@
 
 'use client'
 import React from 'react'
-import { button, a, div, h1} from './components/components';
+export { button, a, div, h1} from './components/components';
 import Imagem from './images/dev-image.jpg';
 
 export default function Home() {

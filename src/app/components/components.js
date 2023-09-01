@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const StyledButton = styled.button`
+export const StyledButton = styled.button`
   background-color: #007bff;
   color: white;
   border: none;
@@ -13,7 +13,7 @@ const StyledButton = styled.button`
   }
 `;
 
-const StyledLink = styled.a`
+export const StyledLink = styled.a`
   color: #007bff;
   text-decoration: none;
 
@@ -22,14 +22,14 @@ const StyledLink = styled.a`
   }
 `;
 
-const StyledImage = styled.div`
+export const StyledImage = styled.div`
   width: 200px;
   height: 200px;
   background-image: url('caminho/para/sua/imagem.jpg');
   background-size: cover;
 `;
 
-const StyledHeading = styled.h1`
+export const StyledHeading = styled.h1`
   font-size: 24px;
   color: #333;
   text-align: center;
