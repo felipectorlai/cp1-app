@@ -7,7 +7,7 @@ export { button, a, div, h1} from './components/components';
 export default function Home() {
   return (
       <main> <h1>Porto Seguro</h1>
-          <StyledButton>Meu Botão</StyledButton>
+          <StyledButton>Leia mais</StyledButton>
           <StyledLink href="https://github.com/danvitoriano/danvitoriano">Meu Link</StyledLink>
           <StyledImage />
       </main>
