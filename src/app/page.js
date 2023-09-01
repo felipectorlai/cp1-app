@@ -3,7 +3,6 @@
 'use client'
 import React from 'react'
 export { button, a, div, h1} from './components/components';
-import Imagem from './images/dev-image.jpg';
 
 export default function Home() {
   return (
